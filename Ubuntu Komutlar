@@ -1,0 +1,30 @@
+Tar Dosyası Açma : tar xvzf <dosyaAdı>
+Klasör İçindeki Dosyaları Gösterme : ls
+
+Klasör Çalıştırma :
+
+The first thing you need to do is extract the files from inside the tar archive to a folder. Let's copy the files to your desktop. You can extract an archive by right-clicking the archive file's icon inside your file browser and pressing the appropriate entry in the context menu. Extracting the archive should create a new folder with a similar name. e.g. program-1.2.3. Now you need to open your terminal and navigate to that directory using the following command:
+
+cd /home/yourusername/Desktop/program-1.2.3
+
+Make sure you read a file called INSTALL, INSTALL.txt, README, or something similar if one was extracted. You can check if such a file exists from the terminal by using the ls command. The file can be opened and read with the command:
+
+xdg-open INSTALL
+
+
+
+
+Open Intellij :  cd bin             
+                 ./idea.sh
+
+
+Restart : sudo reboot
+
+Shut down : sudo poweroff
+
+KVM Error : sudo apt install qume-kvm
+            sudo adduser userName kvm 
+            restart pc
+
+Running Emulator : ~/Androis/Sdk/tools 'a git
+                   ./emulator -avd avdName
