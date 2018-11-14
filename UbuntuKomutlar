@@ -8,7 +8,7 @@ sudo apt-get install unzip
 unzip file.zip -d destination_folder
 ---------------------------------------------
 Klasör Çalıştırma :
----------------------------------
+
 cd /home/yourusername/Desktop/program-1.2.3
 
 INSTALL 
@@ -29,7 +29,7 @@ Open Intellij :  cd bin
 Restart : sudo reboot
 
 Shut down : sudo poweroff
-
+---------------------------------------------------------
 KVM Error : 
 
 quit@qUit-Ubuntu:~$ sudo su
