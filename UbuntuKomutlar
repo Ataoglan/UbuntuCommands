@@ -2,6 +2,7 @@ Tar Dosyası Açma : tar xvzf <dosyaAdı>
 Klasör İçindeki Dosyaları Gösterme : ls
 Klasör Taşıma :   sudo mv fromPath/ toPath/
 Klasör Açma : nautilus folderName
+.deb uzantılı Dosyaları İndirme : sudo apt-get install -f /home/quit/Downloads/code_1.29.1-1542309157_amd64.deb
 ---------------------------------------------
 Unzip Files : 
 sudo apt-get install unzip 
