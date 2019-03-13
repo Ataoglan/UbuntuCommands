@@ -1,4 +1,30 @@
 ###########DOCKER COMMANDS####################3
 
-What is the different between docker run vs docker start :     Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
-                                                               Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
+
+https://medium.com/@pra4mesh/deploy-war-in-docker-tomcat-container-b52a3baea448
+
+
+What is the different between docker run vs docker start :
+     Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
+     Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
+
+-----------------------------------------------------------------
+ List all images in your docker  : docker image ls      
+--------------------------------------------------------------------
+docker container create --publish 8082:8080 --name my-tomcat-
+-------------------------------------------------------------------------
+# to get inside your docker tomcat container directory...
+docker container exec -it my-tomcat-container bash
+----------------------------------------------------------
+
+Containers Info : docker inspect <container id>
+---------------------------------------------------------------------
+
+# to get inside your docker tomcat container directory...
+docker container exec -it my-tomcat-container bash
+
+# it will list tomcat directory inside your docker as
+# :/usr/local/tomcat# ls
+# LICENSE  NOTICE  RELEASE-NOTES RUNNING.txt  bin  conf include  lib # logs  native-jni-lib  temp  webapps  work
+
+-----------------------------------------------------------------------------------------------------------------------------
