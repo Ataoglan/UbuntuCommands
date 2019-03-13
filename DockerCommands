@@ -1,0 +1,4 @@
+###########DOCKER COMMANDS####################3
+
+What is the different between docker run vs docker start :     Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
+                                                               Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
