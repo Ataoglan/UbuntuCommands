@@ -6,6 +6,8 @@ Dosya Silme : rm fileName
 .deb uzantılı Dosyaları İndirme : sudo apt-get install -f /home/quit/Downloads/code_1.29.1-1542309157_amd64.deb
 Bütün Ekranı SS Alma :  Prt Scrn
 Seçi Kısmı SS Alma : Shift + Prt Scrn
+
+Finding All Process Given Port : sudo lsof -i :80
 ---------------------------------------------
 Unzip Files : 
 sudo apt-get install unzip 
