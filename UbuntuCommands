@@ -7,6 +7,8 @@ Dosya Silme : rm fileName
 Bütün Ekranı SS Alma :  Prt Scrn
 Seçi Kısmı SS Alma : Shift + Prt Scrn
 
+Open UTORRENT : utserver -settingspath /opt/utorrent-server-alpha-v3_3
+
 Finding All Process Given Port : sudo lsof -i :80
 ---------------------------------------------
 Unzip Files : 
